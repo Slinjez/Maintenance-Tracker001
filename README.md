@@ -8,7 +8,7 @@ This is an application that provides users with the ability to reach out to oper
 - The admin should be able to mark request as resolved once it is done.
 - The admin should be able to view all maintenance/repairs requests on the application
 - The admin should be able to filter requests
-- The user can view all his/her requests
+- The user can view all his/her requests.
 
 
 
