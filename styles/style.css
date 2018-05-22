@@ -1,3 +1,4 @@
+/*probaly this is the only file i'll use*/
 /*makes sure that the padding and border are included in the total width and height of the elements.*/
 * {
     box-sizing: border-box;
