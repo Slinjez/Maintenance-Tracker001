@@ -1,0 +1,88 @@
+/*makes sure that the padding and border are included in the total width and height of the elements.*/
+* {
+    box-sizing: border-box;
+}
+
+/* universal */
+    /*the background */
+html { 
+    background: url("../images/bgimg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /*the grid layout*/
+  [class*="col-"] {
+    float: left;
+    padding: 8px;
+    border: 1px solid transparent;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.button {
+    background-color: #117de4; 
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: #0383ff; 
+    color: white;
+}
+.form-alert-message{
+    text-align: center;
+    color: #f4faff;
+}
+.error {
+    color: red;
+}
+.warning {
+    color: yellow;
+}
+/* login and signup page */
+.form-title{
+    color: #fff;
+    text-align: center;
+}
+.loginsignup-div {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: 360px;
+    background-color: #88a4bf;
+    border-radius: 13px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.signup-form {
+    height: 400px;
+}
+
+input {
+    width : 100%;
+    margin: 0;
+    border: 3px #999;
+    border-radius: 0;
+    padding: 8px;
+    border-radius: 13px;
+  
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+       -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+            box-sizing: border-box;
+  }
+
