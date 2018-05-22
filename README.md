@@ -1,7 +1,7 @@
 # Maintenance-Tracker
 This is an application that provides users with the ability to reach out to operations or repairs department regarding repair or maintenance requests and monitor the status of their request.
 
-# Required Features
+# Requested Features
 - Users can create an account and log in.
 - The users should be able to make maintenance or repairs request.
 - An admin should be able to approve/reject a repair/maintenance request.
