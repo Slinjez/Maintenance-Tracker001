@@ -1,1 +1,2 @@
 create a simple yet elegant ui
+will import from other html fles to reduce repetition
