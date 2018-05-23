@@ -260,6 +260,27 @@ dashBoardBg {
     background-color: #133d4e;
 }
 
-a:link{
+
+
+a:link {
     color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: white;
+}
+
+/* selected link */
+
+a:active {
+    color: #33b5e5;
 }
