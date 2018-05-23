@@ -251,7 +251,7 @@ a:active {
     height: auto;
 }
 
-input,
+input,a,
 textarea {
     width: 100%;
     margin: 0;
@@ -273,7 +273,10 @@ select {
     font-size: 16px;
     border: 1px solid #ccc;
     height: 34px;
-    -webkit-appearance: none;
+    -webkit-appearance: menulist-button;
     -moz-appearance: none;
     appearance: none;
+}
+.center{
+    text-align: center;
 }

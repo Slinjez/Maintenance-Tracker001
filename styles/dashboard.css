@@ -247,3 +247,19 @@ dashBoardBg {
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
 }
+.requests{
+    background-color: #207090;
+    margin-top: 8px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.requests:hover{
+    background-color: #133d4e;
+}
+.requests:hover .requestsHead {
+    background-color: #133d4e;
+}
+
+a:link{
+    color: white;
+}
