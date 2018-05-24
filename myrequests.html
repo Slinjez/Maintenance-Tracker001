@@ -50,7 +50,7 @@
                         </a>
                         <a href="index.html">
                             <li>
-                                <i class="fas fa-sign-out-alt"></i> Log</li>
+                                <i class="fas fa-sign-out-alt"></i> Log Out</li>
                         </a>
                     </ul>
                 </div>
@@ -75,7 +75,7 @@
 
 
 
-                            <div class="col-12 col-ss-12 col-s-12" >
+                            <div class="col-12 col-ss-12 col-s-12">
 
 
 
@@ -95,46 +95,160 @@
                                         <!--Contenido de la Pestaña 1-->
                                         <div id="content-1">
                                             <h3>Pending</h3>
-                                            
-                                           <tableHolder class="tableHolder">    
-                                            <table id="pending">
+
+                                            <tableHolder class="tableHolder">
+                                                <table id="pending">
                                                     <tr>
-                                                      <th>Project Type</th>
-                                                      <th>Project Title</th>
-                                                      <th>Is Solved?</th>
+                                                        <th>Date</th>
+                                                        <th>Project Type</th>
+                                                        <th>Project Title</th>
+                                                        <th>Status</th>
                                                     </tr>
                                                     <tr>
-                                                      <td>Repair</td>
-                                                      <td>Fix issue A</td>
-                                                      <td>No</td>
+                                                        <td>24th May 2018</td>
+                                                        <td>Repair</td>
+                                                        <td>Fix issue A</td>
+                                                        <td class="pending">
+                                                            <i class="far fa-clock"></i>
+                                                        </td>
                                                     </tr>
                                                     <tr>
-                                                            <td>Repair</td>
-                                                            <td>Fix issue B</td>
-                                                            <td>No</td>
+                                                        <td>23rd May 2018</td>
+                                                        <td>Maintenance</td>
+                                                        <td>Fix issue B</td>
+                                                        <td class="pending">
+                                                            <i class="far fa-clock"></i>
+                                                        </td>
                                                     </tr>
                                                     <tr>
-                                                            <td>Repair</td>
-                                                            <td>Fix issue C</td>
-                                                            <td>No</td>
+                                                        <td>22nd May 2018</td>
+                                                        <td>Repair</td>
+                                                        <td>Fix issue C</td>
+                                                        <td class="pending">
+                                                            <i class="far fa-clock"></i>
+                                                        </td>
                                                     </tr>
                                                     <tr>
-                                                            <td>Repair</td>
-                                                            <td>Fix issue D</td>
-                                                            <td>No</td>
+                                                        <td>21st May 2018</td>
+                                                        <td>Repair</td>
+                                                        <td>Fix issue D</td>
+                                                        <td class="pending">
+                                                            <i class="far fa-clock"></i>
+                                                        </td>
                                                     </tr>
-                                                  </table>
-                                            </tableHolder>    
-                                            
+                                                </table>
+                                            </tableHolder>
+
                                         </div>
                                         <!--Contenido de la Pestaña 2-->
                                         <div id="content-2">
                                             <h3>Accepted</h3>
 
+                                            <tableHolder class="tableHolder">
+                                                <table id="accepted">
+                                                    <tr>
+                                                        <th>Date</th>
+                                                        <th>Project Type</th>
+                                                        <th>Project Title</th>
+                                                        <th>Acceptance Date</th>
+                                                        <th>Status</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>24th May 2018</td>
+                                                        <td>Repair</td>
+                                                        <td>Fix issue A</td>
+                                                        <td>24th May 2018</td>
+                                                        <td class="accepted">
+                                                            <i class="fa fa-check"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>24th May 2018</td>
+                                                        <td>Repair</td>
+                                                        <td>Fix issue A</td>
+                                                        <td>24th May 2018</td>
+                                                        <td class="accepted">
+                                                            <i class="fa fa-check"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>24th May 2018</td>
+                                                        <td>Repair</td>
+                                                        <td>Fix issue A</td>
+                                                        <td>24th May 2018</td>
+                                                        <td class="accepted">
+                                                            <i class="fa fa-check"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>24th May 2018</td>
+                                                        <td>Repair</td>
+                                                        <td>Fix issue A</td>
+                                                        <td>24th May 2018</td>
+                                                        <td class="accepted">
+                                                            <i class="fa fa-check"></i>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </tableHolder>
+
                                         </div>
                                         <!--Contenido de la Pestaña 3-->
                                         <div id="content-3">
                                             <h3>Rejected</h3>
+
+                                            <tableHolder class="tableHolder">
+                                                <table id="rejected">
+                                                    <tr>
+                                                        <th>Date</th>
+                                                        <th>Project Type</th>
+                                                        <th>Project Title</th>
+                                                        <th>Rejection Date</th>
+                                                        <th>Reason for rejection</th>
+                                                        <th>Status</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>24th May 2018</td>
+                                                        <td>Repair</td>
+                                                        <td>Fix issue A</td>
+                                                        <td>24th May 2018</td>
+                                                        <td>Reason A</td>
+                                                        <td class="rejected">
+                                                            <i class="fa fa-times"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>24th May 2018</td>
+                                                        <td>Repair</td>
+                                                        <td>Fix issue B</td>
+                                                        <td>24th May 2018</td>
+                                                        <td>Reason B</td>
+                                                        <td class="rejected">
+                                                            <i class="fa fa-times"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>24th May 2018</td>
+                                                        <td>Repair</td>
+                                                        <td>Fix issue C</td>
+                                                        <td>24th May 2018</td>
+                                                        <td>Reason C</td>
+                                                        <td class="rejected">
+                                                            <i class="fa fa-times"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>24th May 2018</td>
+                                                        <td>Repair</td>
+                                                        <td>Fix issue D</td>
+                                                        <td>24th May 2018</td>
+                                                        <td>Reason D</td>
+                                                        <td class="rejected">
+                                                            <i class="fa fa-times"></i>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </tableHolder>
 
                                         </div>
                                     </div>

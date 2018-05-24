@@ -16,7 +16,10 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-input, a, textarea {
+
+input,
+a,
+textarea {
     width: 100%;
     margin: 0;
     border: 3px #999;
@@ -27,6 +30,7 @@ input, a, textarea {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .row::after {
     content: "";
     clear: both;
@@ -257,21 +261,22 @@ dashBoardBg {
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
 }
-.requests{
+
+.requests {
     background-color: #207090;
     margin-top: 8px;
     margin-right: 30px;
     margin-left: 30px;
     z-index: 101;
 }
-.requests:hover{
+
+.requests:hover {
     background-color: #133d4e;
 }
+
 .requests:hover .requestsHead {
     background-color: #133d4e;
 }
-
-
 
 a:link {
     color: white;
@@ -297,37 +302,36 @@ a:active {
 }
 
 /*tabs*/
+
 #container {
     margin: 0 auto;
-    width: 100%;  
+    width: 100%;
 }
 
 #container input {
-	height: 2.5em;
-	visibility: hidden;
+    height: 2.5em;
+    visibility: hidden;
 }
 
 #container label {
-	background: #f9f9f9;  
-	border-radius: .25em .25em 0 0;
-	color: #888;  
-	cursor: pointer;
-	display: block;
-	float: left;
-	font-size: 1em;  
-	height: 2.5em;
-	line-height: 2.5em;
-	margin-right: .25em;
-	padding: 0 1.5em;
-	text-align: center;
+    background: #f9f9f9;
+    border-radius: .25em .25em 0 0;
+    color: #888;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 1em;
+    height: 2.5em;
+    line-height: 2.5em;
+    margin-right: .25em;
+    padding: 0 1.5em;
+    text-align: center;
 }
 
-
-
-#container input:checked + label {
-	background: #2b82a5;  
-	color: #fff; 
-	position: relative;
+#container input:checked+label {
+    background: #2b82a5;
+    color: #fff;
+    position: relative;
     z-index: 6;
     border: 1px #6accf8;
     border-style: solid;
@@ -335,15 +339,15 @@ a:active {
     /* border-radius: 13px; */
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    border-bottom: none;	
+    border-bottom: none;
 }
 
 #content {
-	background: #2b82a5;  
-	border-radius: 0 .25em .25em .25em;
-	min-height: 20em; 
-	position: relative;
-	width: 100%;
+    background: #2b82a5;
+    border-radius: 0 .25em .25em .25em;
+    min-height: 20em;
+    position: relative;
+    width: 100%;
     z-index: 5;
     border: 1px #6accf8;
     border-style: solid;
@@ -354,54 +358,59 @@ a:active {
 }
 
 #content div {
-	opacity: 0;
-	padding: 1.5em;
-	position: absolute;
-	z-index: -100;
-	transition: all linear 0.1s;
-	
+    opacity: 0;
+    padding: 1.5em;
+    position: absolute;
+    z-index: -100;
+    transition: all linear 0.1s;
 }
 
 #content-1 p {
-	clear: both;
-	margin-bottom: 1em;
+    clear: both;
+    margin-bottom: 1em;
 }
+
 #content-1 p.left img {
-	float: left;
-	margin-right: 1em;
+    float: left;
+    margin-right: 1em;
 }
+
 #content-1 p.last {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 #content-2 p {
-	float: left;
-	width: 48.5%;
-}
-#content-2 p.column-right {
-	margin-left: 3%;
-}
-#content-2 p img {
-	display: block;
-	margin: 0 auto 1em auto;
-}
-#content-3 p,
-#content-3 ul {
-	margin-bottom: 1em;
-}
-#content-3 ul {
-	margin-left: 2em;
+    float: left;
+    width: 48.5%;
 }
 
-#container input#tab-1:checked ~ #content #content-1,
-#container input#tab-2:checked ~ #content #content-2,
-#container input#tab-3:checked ~ #content #content-3 {
+#content-2 p.column-right {
+    margin-left: 3%;
+}
+
+#content-2 p img {
+    display: block;
+    margin: 0 auto 1em auto;
+}
+
+#content-3 p,
+#content-3 ul {
+    margin-bottom: 1em;
+}
+
+#content-3 ul {
+    margin-left: 2em;
+}
+
+#container input#tab-1:checked~#content #content-1,
+#container input#tab-2:checked~#content #content-2,
+#container input#tab-3:checked~#content #content-3 {
     opacity: 1;
     z-index: 100;
 }
 
 input.visible {
-  visibility: visible !important;
+    visibility: visible !important;
 }
 
 .tabCons {
@@ -413,25 +422,76 @@ table {
     width: 100%;
 }
 
-th, td {
+th,
+td {
     text-align: left;
     padding: 8px;
 }
 
-tr:nth-child(even) {background-color: #0e536dcc;}
+tr:nth-child(even) {
+    background-color: #0e536dcc;
+}
 
-#pending tr:hover {background-color: #2196f3c9;}
+#pending tr:hover {
+    background-color: #2196f3c9;
+}
 
-#content-1{
+#accepted tr:hover {
+    background-color: #2196f3c9;
+}
+
+#rejected tr:hover {
+    background-color: #2196f3c9;
+}
+
+#content-1 {
     width: 100%;
 }
-#container{
-    overflow-x:auto;
+
+#content-2 {
+    width: 100%;
 }
+
+#content-3 {
+    width: 100%;
+}
+
+#container {
+    overflow-x: auto;
+}
+
 #pending th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #33b5e5;
     color: white;
+}
+
+#accepted th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #33b5e5;
+    color: white;
+}
+
+#rejected th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #33b5e5;
+    color: white;
+}
+
+.accepted {
+    color: yellow;
+}
+
+.pending {
+    color: yellow;
+}
+
+.rejected {
+    color: yellow;
 }
