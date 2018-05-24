@@ -495,3 +495,10 @@ tr:nth-child(even) {
 .rejected {
     color: yellow;
 }
+.acceptBtn {
+    background-color: yellow;
+}
+.rejectBtn {
+    background-color: red;
+    color: white;
+}
