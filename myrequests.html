@@ -36,14 +36,22 @@
 
                 <div class="collapsibleMenuData">
                     <ul>
-                        <a href="dashboard.html"><li>
-                            <i class="fas fa-home"></i> Home</li></a>
-                        <a href="createrequest.html"><li>
-                            <i class="fas fa-pencil-alt"></i> Create Request</li></a>
-                        <a href="myrequests.html"><li>
-                            <i class="fab fa-readme"></i> My Requests</li></a>
-                        <a href="index.html"><li>
-                            <i class="fas fa-sign-out-alt"></i> Log</li></a>
+                        <a href="dashboard.html">
+                            <li>
+                                <i class="fas fa-home"></i> Home</li>
+                        </a>
+                        <a href="createrequest.html">
+                            <li>
+                                <i class="fas fa-pencil-alt"></i> Create Request</li>
+                        </a>
+                        <a href="myrequests.html">
+                            <li>
+                                <i class="fab fa-readme"></i> My Requests</li>
+                        </a>
+                        <a href="index.html">
+                            <li>
+                                <i class="fas fa-sign-out-alt"></i> Log</li>
+                        </a>
                     </ul>
                 </div>
 
@@ -64,55 +72,79 @@
                     </div>
                     <div class="div-body">
                         <div class="row">
-                           
-                            <div class="col-5 col-ss-12 col-s-12  mainContainer requests">
-                                <h2 class="div-title requestsHead">
-                                    <i class="fas far fa-comment "></i> My Request 1</h2>
-                                    <div class="div-body">
-                                        <!-- <p><b>Title</b>: The dope title</p> -->
-                                        <p><b>Type</b>: Maintenance</p>
-                                        <p><b>Description</b>: The dope description</p>
-                                        <p><b>Status</b>: Pending</p>
-                                        <!-- <div class="col-6 col-ss-12 col-s-12 center">
-                                            <a class="button link" href="#"><i class="fab fa-readme "></i>View</a>
-                                        </div> -->
+
+
+
+                            <div class="col-12 col-ss-12 col-s-12" >
+
+
+
+
+                                <div id="container">
+                                    <!--Pestaña 1 activa por defecto-->
+                                    <input id="tab-1" type="radio" class="tabCons" name="tab-group" checked="checked" />
+                                    <label for="tab-1">Pending</label>
+                                    <!--Pestaña 2 inactiva por defecto-->
+                                    <input id="tab-2" class="tabCons" type="radio" name="tab-group" />
+                                    <label for="tab-2">Accepted</label>
+                                    <!--Pestaña 3 inactiva por defecto-->
+                                    <input id="tab-3" type="radio" class="tabCons" name="tab-group" />
+                                    <label for="tab-3">Rejected</label>
+                                    <!--Contenido a mostrar/ocultar-->
+                                    <div id="content">
+                                        <!--Contenido de la Pestaña 1-->
+                                        <div id="content-1">
+                                            <h3>Pending</h3>
+                                            
+                                           <tableHolder class="tableHolder">    
+                                            <table id="pending">
+                                                    <tr>
+                                                      <th>Project Type</th>
+                                                      <th>Project Title</th>
+                                                      <th>Is Solved?</th>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>Repair</td>
+                                                      <td>Fix issue A</td>
+                                                      <td>No</td>
+                                                    </tr>
+                                                    <tr>
+                                                            <td>Repair</td>
+                                                            <td>Fix issue B</td>
+                                                            <td>No</td>
+                                                    </tr>
+                                                    <tr>
+                                                            <td>Repair</td>
+                                                            <td>Fix issue C</td>
+                                                            <td>No</td>
+                                                    </tr>
+                                                    <tr>
+                                                            <td>Repair</td>
+                                                            <td>Fix issue D</td>
+                                                            <td>No</td>
+                                                    </tr>
+                                                  </table>
+                                            </tableHolder>    
+                                            
+                                        </div>
+                                        <!--Contenido de la Pestaña 2-->
+                                        <div id="content-2">
+                                            <h3>Accepted</h3>
+
+                                        </div>
+                                        <!--Contenido de la Pestaña 3-->
+                                        <div id="content-3">
+                                            <h3>Rejected</h3>
+
+                                        </div>
                                     </div>
+                                </div>
+
+
+
+
                             </div>
 
-                            <div class="col-5 col-ss-12 col-s-12  mainContainer requests">
-                                <h2 class="div-title requestsHead">
-                                    <i class="fas far fa-comment "></i> My Request 2</h2>
-                                    <div class="div-body">
-                                        
-                                        <p><b>Type</b>: Maintenance</p>
-                                        <p><b>Description</b>: The dope description</p>
-                                        <p><b>Status</b>: Pending</p>
-                                        
-                                    </div>
-                            </div>
-
-                            <div class="col-5 col-ss-12 col-s-12  mainContainer requests">
-                                <h2 class="div-title requestsHead">
-                                    <i class="fas far fa-comment "></i> My Request 3</h2>
-                                    <div class="div-body">
-                                                                                <p><b>Type</b>: Maintenance</p>
-                                        <p><b>Description</b>: The dope description</p>
-                                        <p><b>Status</b>: Pending</p>
-                                       
-                                    </div>
-                            </div>
-
-                            <div class="col-5 col-ss-12 col-s-12  mainContainer requests">
-                                <h2 class="div-title requestsHead">
-                                    <i class="fas far fa-comment "></i> My Request 4</h2>
-                                    <div class="div-body">
-                                        <p><b>Type</b>: Maintenance</p>
-                                        <p><b>Description</b>: The dope description</p>
-                                        <p><b>Status</b>: Pending</p>
-                                        
-                                    </div>
-                            </div>
-                            
                         </div>
                     </div>
                 </div>

@@ -33,7 +33,7 @@
 /*the background */
 
 body {
-    background-image: url("../images/bgimg.jpg");
+    background-image: url("../images/bgimglight.jpg");
     background-size: cover;
     /* <------ */
     background-repeat: no-repeat;
@@ -280,3 +280,4 @@ select {
 .center{
     text-align: center;
 }
+/*tabs*/
