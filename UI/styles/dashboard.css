@@ -3,8 +3,8 @@
 /*the background */
 
 body {
-    background: #03a9f496 !important;
-    background: green url("../images/bgimg.jpg") right no-repeat;
+    background: linear-gradient(to right,#03a9f496,#017BB0) !important; 
+    /* background: #03a9f496 url("../images/bgimggrad.jpg") right no-repeat; */
     background-size: cover;
     /* <------ */
     background-repeat: no-repeat;
@@ -431,8 +431,35 @@ td {
 tr:nth-child(even) {
     background-color: #0e536dcc;
 }
-
 #pending tr:hover {
+    background-color: #2196f3c9;
+}
+
+#accepted tr:hover {
+    background-color: #2196f3c9;
+}
+
+#rejected tr:hover {
+    background-color: #2196f3c9;
+}
+
+#content-1 {
+    width: 100%;
+}
+
+#content-2 {
+    width: 100%;
+}
+
+#content-3 {
+    width: 100%;
+}
+
+#container {
+    overflow-x: auto;
+}
+
+#pending tr:hover{
     background-color: #2196f3c9;
 }
 
@@ -462,7 +489,6 @@ tr:nth-child(even) {
 
 #pending th {
     padding-top: 12px;
-    padding-bottom: 12px;
     text-align: left;
     background-color: #33b5e5;
     color: white;
