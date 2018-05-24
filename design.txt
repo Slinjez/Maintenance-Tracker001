@@ -1,1 +1,5 @@
 create a simple yet elegant ui
+will import from other html fles to reduce repetition
+
+as stated here http://blog.teamtreehouse.com/introduction-html-imports
+html imports require me to override browser settings, so I will just reverse to old method
